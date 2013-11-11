@@ -1,0 +1,50 @@
+Node.js te permite correr código JavaScript en el backend, fuera del browser. Hace uso de la Maquina Virtual V8 de Google, el mismo entorno de ejecución para JavaScript que Google Chrome utiliza. Destaca por su bajo consumo de memoria.
+
+Se usa en muchisimos sitios. Es un proyecto muy estable. Los grandes lo apoyan e incluso lo usan (Google, Yahoo, Microsoft). Otros que lo usan:
+
+Luego de casi 2 años en el medio ya existen múltiples aplicaciones exitosas y en crecimiento:
+
+Learnboast ( contribuyen con node.js )
+Geeklist
+Transloadit
+Substance
+
+LinkedIn: http://www.nodehispano.com/2012/10/linkedin-migra-desde-rails-hacia-node-nodejs/
+Más -> https://github.com/joyent/node/wiki/Projects,-Applications,-and-Companies-Using-Node
+
+
+- Instalar Nodejs en windows 7
+
+http://www.nodehispano.com/2011/11/como-instalar-node-js-en-ms-windows-7-nodejs/
+
+puede instalarse en linux y mac.
+
+
+- Instalar NPM (instalador de paquetes)
+
+http://www.nodehispano.com/2012/04/una-introduccion-a-npm-nodejs/
+
+Comandos mas útiles de NPM:
+
+npm search <nombre-del-modulo|palabra-clave> -> Buscar un paquete
+
+npm info <nombre-del-modulo> -> Información del módulo
+
+npm ls -> Módulos instalados
+
+npm outdated -> Busca si hay versiones más nuevas acerca de los modulos instalados en el directorio actual.
+
+
+- Express – El framework web para #nodejs
+
+http://www.nodehispano.com/2012/01/express-el-framework-web-para-nodejs/
+http://www.nodehispano.com/2012/05/guia-de-uso-de-express-framework-para-nodejs/
+
+Organiza la aplicacion web con arquitectura MVC en el lado de servidor
+
+
+- Edge.js - Llamar desde c# a nodejs o desde nodejs a c#
+https://github.com/tjanczuk/edge
+
+
+Amazon -> http://aws.amazon.com/es/sdkfornodejs/ (ofrece un sdk para utilizar sus servicios. Me ha llamado la atencion especialmente la idea de S3)
